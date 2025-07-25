@@ -23,7 +23,7 @@ h1 {
 
 .immat {
   color: #ffffff;
-  background: #181818;
+  background: #00000000;
   border-radius: 7px;
   padding: 0.18em 0.35em;
   margin-left: 1rem;
@@ -116,19 +116,22 @@ h1 {
   padding: 0.36em 0.6em;
   border-right: 1px solid #333;
   border-left: 1px solid #333;
-  vertical-align: top;
+  vertical-align: middle;
+  text-align: center; /* ✅ Ajout essentiel */
 }
+
+
 .caracteristiques td:first-child {
   font-weight: 600;
-  text-align: right;
+  text-align: center;
   white-space: nowrap;
-  padding-right: 1em;
+  padding-right: 0;
   color: #ffffff;
   border-left: none;
 }
 .caracteristiques td:last-child {
   font-weight: 400;
-  text-align: left;
+  text-align: center;
   border-right: none;
 }
 
